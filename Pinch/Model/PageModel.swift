@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Page: Identifiable {
+struct PageModel: Identifiable {
   let id: Int
   let imageName: String
 }
 
-extension Page {
+extension PageModel {
   var thumbnailName: String {
     return "thumb-" + imageName
   }
